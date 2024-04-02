@@ -1,6 +1,6 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/uipath-logo.png)
 
-# S00P00 Title
+# S02P03 Switch
 
 This project is my solution in **VB** to the **Switch** practice found in section 02 practice 01 of the UiPath - RPA Developer Foundation course.
 
@@ -16,7 +16,7 @@ Considering a collection of error codes stored in an Array of Strings, separate 
 
 **Note**: The initial Array should contain the following values:
 
-"Ax001","Ax002","Ax003","Ax004","Ax005","Bx001","Bx002","Bx003","Cx001","Cx002","Cx003","Cx004"
+{"Ax001", "Ax002", "Ax003", "Ax004", "Ax005", "Bx001", "Bx002", "Bx003", "Cx001", "Cx002", "Cx003", "Cx004", "Dx314", "BadError"}
 
 ### Details
 
@@ -33,14 +33,26 @@ Considering a collection of error codes stored in an Array of Strings, separate 
 ### Sample Output
 
 ```
-07/16/2021 14:17:08 => [Debug] Execution started for project: SRPADev-S02P03-Switch
-07/16/2021 14:17:10 => [Info] SRPADev-S02P03-Switch execution started
-07/16/2021 14:17:11 => [Debug] The processing encountered the default case of the error codes.  The unhandled error code value is: Dx314
-07/16/2021 14:17:11 => [Debug] The processing encountered the default case of the error codes.  The unhandled error code value is: BadError
-07/16/2021 14:17:11 => [Debug] AX codes: Ax001, Ax002, Ax003, Ax004, Ax005
-07/16/2021 14:17:11 => [Debug] BX codes: Bx001, Bx002, Bx003
-07/16/2021 14:17:11 => [Debug] CX codes: Cx001, Cx002, Cx003, Cx004
-07/16/2021 14:17:11 => [Info] SRPADev-S02P03-Switch execution ended in: 00:00:01
+04/02/2024 13:11:18 => [Info] RPADev-S02P03-Switch-VB execution started
+04/02/2024 13:11:18 => [Info] RPADev-S02P03-Switch-VB.Main.Default;
+Dx314
+BadError
+04/02/2024 13:11:18 => [Info] RPADev-S02P03-Switch-VB.Main.AX;
+Ax001
+Ax002
+Ax003
+Ax004
+Ax005
+04/02/2024 13:11:18 => [Info] RPADev-S02P03-Switch-VB.Main.BX;
+Bx001
+Bx002
+Bx003
+04/02/2024 13:11:18 => [Info] RPADev-S02P03-Switch-VB.Main.CX;
+Cx001
+Cx002
+Cx003
+Cx004
+04/02/2024 13:11:18 => [Info] RPADev-S02P03-Switch-VB execution ended in: 00:00:00
 ```
 
 ### ARCHITECTURE REQUIREMENTS
