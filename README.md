@@ -2,7 +2,7 @@
 
 # S02P03 Switch
 
-This project is my solution in **VB** to the **Switch** practice found in section 02 practice 01 of the UiPath - RPA Developer Foundation course.
+This project is my solution in **VB** to the **Switch** practice found in section 02 practice 03 of the UiPath - RPA Developer Foundation course.
 
 ### GETTING STARTED
 
