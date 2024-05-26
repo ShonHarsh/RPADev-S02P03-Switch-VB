@@ -32,7 +32,7 @@ Considering a collection of error codes stored in an Array of Strings, separate 
 
 ### Sample Output
 
-```
+```sh
 04/02/2024 13:11:18 => [Info] RPADev-S02P03-Switch-VB execution started
 04/02/2024 13:11:18 => [Info] RPADev-S02P03-Switch-VB.Main.Default;
 Dx314
@@ -65,11 +65,13 @@ A standard UiPath, Studio to Orchestrator cloud setup is the base of operation. 
 
 Clone the project to develop or change it.
 
-`git clone https://github.com/ShonHarsh/RPADev-S02P03-Switch-VB`
+```sh
+git clone https://github.com/ShonHarsh/RPADev-S02P03-Switch-VB
+```
 
 ### Links
 - [UiPath Automation Platform](https://www.uipath.com/)
-- [UiPath Studio](https://www.uipath.com/product/studio)
+- [UiPath Studio](https://www.uipath.com/product/studio)- [Atom Editor (Used for all my Readme files)](https://atom-editor.cc/)
 - [Shon Harsh Website 127.0.0.1](https://shonharsh.github.io/curriculum-vitae/index.html)
 - [This.GitHub](https://github.com/shonharsh)
 - [LinkedIn](https://www.linkedin.com/in/shonharsh/)
